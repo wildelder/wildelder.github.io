@@ -25,7 +25,7 @@ My research interest includes AI for healthcare and maybe embodied AI.
 
 
 # 📖 Educations
-- *2022.06 - Present*: 🇨🇳 Zhi Class, Peking University
+- *2022.06 - Present*: <img src="https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f1e8-1f1f3.png" alt="🇨🇳" width="20" style="vertical-align: text-bottom;"> Zhi Class, Peking University
 
 
 <!-- 
