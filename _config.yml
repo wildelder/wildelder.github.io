@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jingyu Lu"
-description              : "A homepage for Jingyu Lu"
+description              : ""
 repository               : "wildelder.github.io/"
 google_scholar_stats_use_cdn : false
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jingyu Lu"
-  avatar           : "images/head.png"
+  avatar           : "images/head_2.png"
   bio              : "Senior undergraduate student at Peking University"
   location         : "Beijing, China"
   employer         :
