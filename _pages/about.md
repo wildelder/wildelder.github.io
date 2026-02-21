@@ -51,17 +51,32 @@ My research interest includes AI for healthcare and maybe embodied AI.
   </div>
   <div class='paper-box-text' markdown="1">
 
-[A Cognitive Process-Inspired Architecture for Subject-Agnostic Brain Visual Decoding](https://arxiv.org/pdf/2511.02565)
+[A Cognitive Process-Inspired Architecture for Subject-Agnostic Brain Visual Decoding](https://arxiv.org/abs/2511.02565)
 
 **Jingyu Lu**, Haonan Wang, Qixiang Zhang, Xiaomeng Li
-
-Brain-inspired architecture modeling early–ventral–dorsal streams for subject-agnostic fMRI-to-video decoding.
 
 [[Paper]](https://arxiv.org/pdf/2511.02565) [[Code]](https://github.com/xmed-lab/VCFLOW) 
 
 </div>
 </div>
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ICLR 2026</div>
+      <img src='images/zebra.png' width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[ZEBRA: Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding](https://arxiv.org/abs/2510.27128)
+
+Haonan Wang, **Jingyu Lu**, Hongrui Li, Xiaomeng Li
+
+[[Paper]](https://arxiv.org/pdf/2510.27128) [[Code]](https://github.com/xmed-lab/ZEBRA) 
+
+</div>
+</div>
 <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
@@ -82,4 +97,4 @@ Brain-inspired architecture modeling early–ventral–dorsal streams for subjec
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. --> -->
+- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. --> 
