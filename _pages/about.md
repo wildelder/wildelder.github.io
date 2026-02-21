@@ -21,17 +21,17 @@ redirect_from:
 
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 I'm a senior undergraduate student at Peking University. I'll start my research journey in HKUST as PhD after graduation. 
-My research interest includes AI for healthcare and maybe embodied AI.
+My research interest includes AI for healthcare and neuroscience.
 
 
 # 📖 Educations
 - *2022.06 - Present*: <img src="https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f1e8-1f1f3.png" alt="🇨🇳" width="20" style="vertical-align: text-bottom;"> Zhi Class, Peking University
 
 
-<!-- 
+
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-<!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- *2026.01*: &nbsp;🎉🎉 Our paper "A Cognitive Process-Inspired Architecture for Subject-Agnostic Brain Visual Decoding" was accepted to ICLR 2026.
+<!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Publications 
 
@@ -63,7 +63,7 @@ My research interest includes AI for healthcare and maybe embodied AI.
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ICLR 2026</div>
+      <div class="badge">NeurIPS 2026</div>
       <img src='images/zebra.png' width="100%">
     </div>
   </div>
@@ -82,7 +82,7 @@ Haonan Wang, **Jingyu Lu**, Hongrui Li, Xiaomeng Li
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -97,4 +97,4 @@ Haonan Wang, **Jingyu Lu**, Hongrui Li, Xiaomeng Li
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. --> 
+- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->  -->
