@@ -56,7 +56,7 @@ My research interest includes AI for healthcare and neuroscience.
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">NeurIPS 2026</div>
+      <div class="badge">NeurIPS 2025</div>
       <img src='images/zebra.png' width="100%">
     </div>
   </div>
