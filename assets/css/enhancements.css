@@ -64,8 +64,8 @@ select:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .timeline-item h3 { color: var(--ink); }
 .timeline-item:before { background: var(--accent); }
 .timeline-item:after { background: var(--line); }
-.school-mark { background: var(--surface-soft); border-color: var(--line); color: var(--accent); }
-[data-theme="dark"] .school-mark.pku { background: var(--surface-soft); border-color: var(--line); color: var(--accent); }
+.school-mark { width: 56px; height: 56px; padding: 7px; background: #fff; border-color: #e1e7e3; border-radius: 4px; }
+.school-mark img { display: block; width: 40px; height: 40px; object-fit: contain; }
 .toast { background: var(--ink); color: var(--bg); }
 .skip-link { background: var(--paper); }
 @media (max-width: 760px) {
@@ -88,6 +88,9 @@ select:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
   .header-inner { padding: 0 16px; }
   nav { gap: 10px; }
   .header-actions { gap: 6px; }
+}
+@media (max-width: 480px) {
+  .education-list article { grid-template-columns: 56px minmax(0, 1fr); }
 }
 @media print {
   :root[data-theme="dark"] { --bg: white; --paper: white; --ink: #293633; --muted: #5e6c67; --accent: #286b56; --line: #ddd; --surface-soft: #f3f5f2; }
