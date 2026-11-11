@@ -23,7 +23,7 @@
     { title: 'ZEBRA results', description: 'View published image reconstructions', category: 'Interactive', terms: 'neurips image 2025 图像 重建', run: () => document.dispatchEvent(new CustomEvent('research:navigate', { detail: { model: 'zebra' } })) },
     { title: 'VCFlow paper', description: 'ICLR 2026 · cognitive process-inspired brain decoding', category: 'Publication', terms: 'publication citation bibtex video 论文 引用', run: () => jump('paper-vcflow') },
     { title: 'ZEBRA paper', description: 'NeurIPS 2025 · zero-shot cross-subject generalization', category: 'Publication', terms: 'publication citation bibtex image 论文 引用', run: () => jump('paper-zebra') },
-    { title: 'Research experience', description: 'Ant International, medical AI, and teaching', category: 'Section', terms: 'intern agent self evolution miccai vlm3d ant 蚂蚁 实习 经历 助教', run: () => jump('experience') },
+    { title: 'Research experience', description: 'Ant International, medical AI, and AgiBot', category: 'Section', terms: 'intern agent self evolution miccai vlm3d ant agibot embodied robotics 蚂蚁 智元 实习 经历', run: () => jump('experience') },
     { title: 'Education & honors', description: 'HKUST, Peking University, and selected awards', category: 'Section', terms: 'pku zhi scholarship phd awards 教育 荣誉 北大 港科大', run: () => jump('education') },
     { title: 'Open curriculum vitae', description: 'The supplied CV · February 2026', category: 'Document', terms: 'cv resume pdf download 简历 下载', run: () => { window.open('files/CV_Jingyu_Lu.pdf', '_blank', 'noopener'); } },
     { title: 'Copy email address', description: 'lu2629346363@stu.pku.edu.cn', category: 'Action', terms: 'contact email 邮件 邮箱 联系', run: async () => {
