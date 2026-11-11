@@ -1,0 +1,49 @@
+/* Optional quick navigation, kept separate from the page content. */
+.search-toggle { display: flex; align-items: center; justify-content: center; gap: 9px; height: 36px; padding: 0 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--paper); color: var(--muted); }
+.search-toggle svg { width: 15px; height: 15px; }
+.search-toggle:hover { color: var(--accent); background: var(--accent-soft); }
+kbd { font: 10px/1.5 var(--sans); }
+.search-toggle kbd { color: var(--muted); }
+
+.command-open { overflow: hidden; }
+.command-dialog { padding: 0; width: min(610px, calc(100vw - 40px)); max-height: calc(100dvh - 48px); border: 1px solid var(--outline); border-radius: 13px; background: var(--paper); color: var(--ink); box-shadow: 0 25px 100px #0004; overflow: auto; overscroll-behavior: contain; }
+.command-dialog::backdrop { background: rgba(10, 24, 19, .66);  }
+.command-heading { display: flex; align-items: center; justify-content: space-between; padding: 17px 22px 10px; }
+.command-heading h2 { font: 20px/1.4 var(--serif); letter-spacing: -.3px; }
+.command-heading button { display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 6px; color: var(--muted); background: var(--surface-soft); }
+.command-heading svg { width: 15px; height: 15px; }
+.command-input-wrap { display: flex; align-items: center; gap: 11px; margin: 0 22px 13px; padding: 10px 13px; background: var(--surface-soft); border: 1px solid var(--line); border-radius: 7px; color: var(--accent); }
+.command-input-wrap:focus-within { border-color: var(--accent); }
+.command-input-wrap input { flex: 1; min-width: 0; width: 100%; border: 0; outline: 0; background: transparent; color: var(--ink); font-size: 13px; line-height: 1.7; }
+.command-input-wrap input::placeholder { color: var(--muted); opacity: 1; }
+.command-input-wrap input:focus-visible { outline: 0; }
+#command-results { padding: 5px 10px 8px; max-height: min(380px, 49dvh); overflow-y: auto; border-top: 1px solid var(--line); overscroll-behavior: contain; }
+#command-results:empty { display: none; }
+#command-results button { width: 100%; display: flex; align-items: center; gap: 12px; border: 1px solid transparent; border-radius: 7px; padding: 11px; background: transparent; text-align: left; color: var(--ink); }
+#command-results button > span:first-child { min-width: 0; }
+#command-results button[aria-selected="true"] { background: var(--accent-soft); border-color: var(--line); }
+#command-results button:hover { background: var(--surface-soft); }
+#command-results strong { display: block; font-size: 12px; }
+#command-results small { display: block; margin-top: 2px; color: var(--muted); font-size: 10px; line-height: 1.6; }
+.command-category { margin-left: auto; color: var(--muted); font-size: 9px; }
+.command-empty { padding: 25px 22px 34px; color: var(--muted); font-size: 12px; }
+.command-footer { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 22px; border-top: 1px solid var(--line); background: var(--raised); color: var(--muted); font-size: 10px; }
+.command-footer kbd { display: inline-block; min-width: 18px; padding: 1px 4px; border: 1px solid var(--line); border-radius: 3px; margin: 0 3px; text-align: center; background: var(--paper); }
+
+
+@media (max-width: 760px) {
+  .search-toggle { width: 30px; height: 30px; padding: 0; border-radius: 4px; }
+  .search-toggle kbd { display: none; }
+}
+@media (max-width: 540px) {
+  .command-dialog { width: calc(100vw - 24px); border-radius: 6px; }
+  .command-heading { padding: 14px 15px 9px; }
+  .command-heading h2 { font-size: 19px; }
+  .command-input-wrap { margin: 0 15px 12px; padding: 9px 10px; gap: 8px; }
+  .command-input-wrap input { font-size: 16px; }
+  .command-input-wrap input::placeholder { font-size: 12px; }
+  #command-results { padding-left: 6px; padding-right: 6px; }
+  .command-category { display: none; }
+  .command-footer { padding: 10px 14px; font-size: 9px; }
+}
+@media print { .search-toggle, .command-dialog { display: none !important; } }

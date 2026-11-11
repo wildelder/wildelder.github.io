@@ -3,6 +3,6 @@
   "private": true,
   "scripts": {
     "dev": "node scripts/preview.mjs",
-    "check": "node --check assets/js/home.js && node --check assets/js/research-data.js && node --check scripts/preview.mjs"
+    "check": "node --check assets/js/home.js && node --check assets/js/research-data.js && node --check assets/js/research-utils.js && node --check assets/js/enhancements.js && node --check assets/js/playground.js && node --check scripts/preview.mjs && node --test tests/research-utils.test.cjs"
   }
 }
