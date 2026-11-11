@@ -7,8 +7,9 @@
 
 # Site Settings
 title                    : "Jingyu Lu"
-description              : ""
-repository               : "wildelder.github.io/"
+description              : "Jingyu Lu, PhD student at HKUST. Brain visual decoding, multimodal medical AI, and self-evolving agents."
+url                      : "https://wildelder.github.io"
+repository               : "wildelder/wildelder.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
@@ -23,11 +24,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jingyu Lu"
   avatar           : "images/head_2.png"
-  bio              : "Senior undergraduate student at Peking University"
-  location         : "Beijing, China"
+  bio              : "PhD student at HKUST"
+  location         : "Hong Kong"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    :
   email            : "lu2629346363@stu.pku.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -65,6 +66,7 @@ include:
   - _pages
   - files
 exclude:
+  - scripts
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
