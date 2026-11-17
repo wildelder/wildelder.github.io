@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jingyu Lu"
+title                    : "Jingyu Lu | HKUST"
 description              : "Jingyu Lu, PhD student at HKUST. Brain visual decoding, multimodal medical AI, and self-evolving agents."
 url                      : "https://wildelder.github.io"
 repository               : "wildelder/wildelder.github.io"
